@@ -1,0 +1,104 @@
+/* Pre Set*/
+
+body {
+    background-color: #e9ecef;
+    font-family: 'Roboto', sans-serif;
+    color: #575F7D;
+    font-size: 17px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    color: #575F7D;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+/* Profile*/
+
+.img-circle {
+    border-radius: 50%;
+    border: 5px solid rgb(53, 51, 51);
+}
+
+.bio-description {
+    margin-bottom: 40px;
+}
+
+
+/* Container and Card*/
+
+.container {
+    width: 700px;
+    margin: 0 auto;
+}
+
+.card-white {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+
+/* Button*/
+
+.btn-primary {
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    border-radius: 4px;
+    background-color: #7b2cbf;
+}
+
+.btn-primary:hover {
+    background-color: #000;
+}
+
+.social-media {
+    display: flex;
+    margin: 0 auto;
+    width: 150px;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.social-media a {
+    font-size: 25px;
+    color: #575F7D;
+}
+
+.social-media a:hover {
+    color: #7b2cbf;
+}
+
+
+/* Responsive*/
+
+@media (max-width: 740px) {
+    .container {
+        width: 500px;
+    }
+}
+
+@media (max-width: 540px) {
+    .container {
+        width: 100%;
+    }
+    a {
+        font-size: 16px;
+    }
+}
